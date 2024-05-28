@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //look for variable using id we put
         email = (EditText) findViewById(R.id.ed1);
         password = (EditText) findViewById(R.id.ed2);
         login = (Button) findViewById(R.id.b1);
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void login()
     {
-        //trigger action code of buttons
+
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
